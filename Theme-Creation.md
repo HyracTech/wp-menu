@@ -147,11 +147,11 @@ else {
  
  
  
- 
- -----------
-
-
-
+Using conditionals
+you can use page ids or slug names
+<?php if (is_page('portfolio')) {?>
+	//do something
+<?php }?>
 
  
  

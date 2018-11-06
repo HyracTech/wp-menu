@@ -123,7 +123,7 @@ else {
  ----
  
  from this line ' when(scaffold, getZimVersions, getConfigJson).always(procMenu); '
- The procMenu function will only run after the scaffold is resolved. Meaning the for loop actually runs before the function is run.
+ The procMenu function will only run after the scaffold is resolved. Meaning the for loop actually runs before the function is run.  --do more research on this
  
  Also
  menuDefs[menu_item_name]['menu_id'] = menuItemDivId;
@@ -131,3 +131,15 @@ else {
  since menuDefs is an object, the square brackets is a way to navigate through the object just like you would use menuDefs.menu_item_name.menu_id.   The object holds single menu items/definitions as objects.
  
  in this example we are adding a new property menu_id to each of the menu definitions that are represented in our menuItems array
+ 
+ 
+ 
+ 
+ WP
+ To create Wp templates, its good practice to have the word "page" e.g
+ page-portfolio.php, page-about.php
+ But what mainly identifies it as a template is the the comment section at the top of the php file
+ <?php /* Template Name: CustomPageT1 */ ?>
+ 
+ 2017 theme doesnt seem to have any template by default
+ 

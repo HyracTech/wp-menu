@@ -135,19 +135,13 @@ else {
  
  
  
- WP
- To create custom Wp page templates, its good practice to have the word "page" e.g
- page-portfolio.php, page-about.php
- But what mainly identifies it as a template is the the comment section at the top of the php file
- <?php /* Template Name: CustomPageT1 */ ?>
+
  
  WordPress Theme Development Basics: Required Files & Template Hierarchy
  https://ithemes.com/2017/07/14/wordpress-theme-development-basics/
  
  
- 
- 
-Using conditionals
+Using conditionals in wordpress php files
 you can use page ids or slug names
 <?php if (is_page('portfolio')) {?>
 	//do something
@@ -155,5 +149,20 @@ you can use page ids or slug names
 
  
  
+Applying specific styling to specific pages /Template file with matching name (slug or ID)
+name the file page-'slugname/id'.php   e.g page-portfolio.php
 
+*We can tell users to make a page with a particular name.
+e.g page-hyracbox.php
+
+Have several pages share a common layout
+*Use templates
+You can name the templates whatever you want
+
+Custom page templates
+Custom page templates are php files similar to page.php in structure 
+What identifies a template is the comment block at the start of the file.
+ <?php /* Template Name: CustomPageT1 */ ?>
+ 
+Very useful if you want to include a particular feature or component in many pages in your site.
  

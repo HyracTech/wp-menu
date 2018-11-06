@@ -136,10 +136,24 @@ else {
  
  
  WP
- To create Wp templates, its good practice to have the word "page" e.g
+ To create custom Wp page templates, its good practice to have the word "page" e.g
  page-portfolio.php, page-about.php
  But what mainly identifies it as a template is the the comment section at the top of the php file
  <?php /* Template Name: CustomPageT1 */ ?>
  
- 2017 theme doesnt seem to have any template by default
+ WordPress Theme Development Basics: Required Files & Template Hierarchy
+ https://ithemes.com/2017/07/14/wordpress-theme-development-basics/
+ 
+ 
+ 
+ 
+ 
+ -----------
+
+
+
+
+ 
+ 
+
  
